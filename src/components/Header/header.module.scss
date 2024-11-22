@@ -1,0 +1,56 @@
+
+header{
+    background-image: linear-gradient(to right, #001B2F 20%, #005695);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    height: 15vh;
+
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20vw;
+    }
+}
+
+a{
+    color: white;
+
+}
+
+
+.boxmenu{
+
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        width: 25vw;
+    }
+}
+
+.busca{
+display: flex;
+align-items: center;
+justify-content: space-between;
+border: solid 1px;
+padding-right: 20px;
+padding-left: 10px;
+border-radius: 15px;
+width: 18vw;
+height: 5vh;
+
+    img{
+        width: 1vw;
+    }
+}
+
+.boxInput{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}

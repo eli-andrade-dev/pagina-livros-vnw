@@ -1,0 +1,19 @@
+.post{
+    background-image: url('../../assets/fotoLivros.png');
+    height: 85vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+
+    h2{
+        width: 40%;
+        margin-left: 120px;
+        font-size: 1.8rem;
+
+        border: solid 2px white;
+    }
+}
+
+
+
