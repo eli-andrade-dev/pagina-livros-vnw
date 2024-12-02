@@ -1,0 +1,23 @@
+footer{
+    background-image: linear-gradient(to right, #001B2F 20%, #005695);
+    height: 30vh;
+}
+
+.boxSocial{
+    background-color: (RGB 0, 86, 149, 1);
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.boxText{
+    background-color: rgba(35, 32, 32, 1);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

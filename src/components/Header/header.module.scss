@@ -53,4 +53,27 @@ height: 5vh;
     outline: none;
     background-color: transparent;
     color: white;
+    width: 10vw;
+    font-size: 12px;
+
+}
+
+@media(max-width: 1060px){
+    .boxLogo{
+        width: 25vw;
+        h1{
+            font-size: 1.8vw;
+        }
+    }
+    .boxInput{
+        &::placeholder{
+            font-size: 1vw;
+        }
+    }
+    .boxmenu{
+        ul{
+            font-size: 1.6vw;
+        }
+    }
+
 }

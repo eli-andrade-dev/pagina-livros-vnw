@@ -1,4 +1,9 @@
-.post{
+// .post{
+//     display: flex;
+//     flex-direction: column;
+// }
+
+.boxInicio{
     background-image: url('../../assets/fotoLivros.png');
     height: 85vh;
     background-size: cover;
@@ -7,13 +12,31 @@
     color: white;
 
     h2{
-        width: 40%;
+        width: 30%;
         margin-left: 120px;
-        font-size: 1.8rem;
-
-        border: solid 2px white;
+        font-size: 1.5rem;
     }
 }
 
+.boxCards{
+    height: 85vh;
+    display: flex;
 
+    .cardIcon{
+        display: flex;
+        justify-content: space-evenly;
+        border: solid red;
+        div{
+            border: solid black;
+        }
+    }
+    img{
+        width: 8vw;
+    }
+
+    h3{
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
 

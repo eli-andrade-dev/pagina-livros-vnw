@@ -12,7 +12,7 @@ export default function header() {
         <BrowserRouter>
 
           <header>
-              <section>
+              <section className={S.boxLogo}>
                   <img src={Logo} alt="" />
                   <h1>Livros Vai na Web</h1>
               </section>
